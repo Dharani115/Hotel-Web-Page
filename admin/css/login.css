@@ -1,0 +1,78 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+	background:linear-gradient(to right,red,black,red)!important;
+	color:black;
+}
+label{
+	color:red;
+	font-weight:800px;
+	font-size:20px;
+}
+.form-group i{
+	color:black;
+}
+.form-group{
+	margin-left:40px;
+}
+.form-group input{
+	margin-left:60px;
+	border:none;
+	border-bottom:2px solid red;
+	font-size:20px;
+}
+.login-page-title img{
+	width:200px;
+	height:100px;
+	box-shadow:2px 2px 2px black;
+}
+.login-page-title h3{
+	color:red;
+}
+.btn-warning{
+	padding:10px 30px;
+	background:maroon;
+	border:none;
+}
+.btn-warning:hover{
+	background:red;
+}
+.login-page{
+	background:white;
+	border-radius:20px;
+	margin-top:17%;
+	margin-left:10%;
+	width:80%;
+}
+.home{
+    float: right;
+	padding-right:20px;
+}
+.registeer{
+    padding-left:20px;
+}
+.login-page a:hover{
+	color:red;
+	text-decoration:none;
+}
+.login-page a{
+	color:black;
+	font-size:20px;
+}
+.text{
+	font-family:roboto;
+}
+.style{
+	height:25x;
+	width:80%
+}
+.container{
+	padding:10px  50px;
+	height:25%;
+}
+.needs-validation .validation {
+    color: red;
+    display: none;
+    margin: 4px 0 20px 0;
+    font-weight: 400;
+    font-size: 13px;

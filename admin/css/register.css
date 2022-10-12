@@ -1,0 +1,79 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+background-image:linear-gradient(to right,red,black,red);
+font-size:15px;
+padding:10px;
+font-family:monospace;
+}
+.form-control{
+	height:30px;
+	border:none;
+	border-bottom:2px solid maroon;
+}
+.form-control:hover{
+	border-bottom:2px solid red;
+}
+.check-form h3 {
+	margin-top:10%;
+	font-size:30px;
+	color:black;
+	animation-name: example;
+	animation-duration: 2s;
+}
+
+@keyframes example {
+	  1%   {color: #F0C6C1 ;}
+	  25%  {color: #D8FFB8 ;}
+	  50%  {color: #B8E7FF ;}
+	  100% {color: #38BB80 ;}
+	}
+.register-cont{
+	top:0%;
+	background:white;
+	padding:10px  50px;
+	width:50%;
+	height:20%;
+	border-radius:20px;
+	box-shadow: 15px 15px 15px 5px #6b110c;
+}
+h2{
+	color:red;
+}
+i{
+	color:black;
+}
+label{
+	color:red;
+}
+.btn-warning{
+	padding:10px 30px;
+	background:maroon;
+	border:none;
+}
+.btn-warning:hover{
+	background:red;
+}
+.register{
+	color:red;
+	font-size:18px;
+	margin-left:30%;
+}
+.login-path{
+	Margin-left:13%;
+	margin-top:-5%;
+	color:red;
+}
+.login-path a{
+	Margin-left:2%;
+	margin-top:-5%;
+}
+.login-path:hover{
+	color:black;
+	text-decoration:none;
+}
+@media (max-width:450px){
+.register-cont {
+    width:100%;
+}
+}
